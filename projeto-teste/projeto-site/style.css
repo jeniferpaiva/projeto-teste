@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+    
+}
+
+img {border-radius: 20px;}
+
+ul li {
+   list-style: none;
+    display: inline;  
+}
+ul a {
+	padding: 0 1em;
+	line-height:2em ;
+	text-decoration: none;
+	color: snow;
+    background-color: rgb(235, 231, 20);
+    width: 100%;
+}
+button {background-color: rgb(235, 231, 20); 
+        color: snow;
+        padding: 0 1em;
+	    line-height:2em ;
+        border-radius: 8px;
+}
+h4 {color: rgb(235, 231, 20);
+}
+footer{text-align: justify;
+        background-color: rgb(53, 51, 51);
+        font-size: 8px;
+        color: snow;
+       
+}
+a {
+	text-decoration: none;
+	color: snow;
+}
+#fundo1 {background-image: url(img/fundoelipse.jpg) ;
+        padding-top: 20px;
+         padding-bottom: 40px;
+    
+}
+#levels {min-height: 150px;
+        width: 100%;
+        table-layout: fixed;
+}
+#rodape { table-layout: fixed; 
+        width: 600px;
+        flex: 1;
+        padding-right: 10px;
+
+}
+.container { text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+            clear:both;
+}
+.gold {color: rgb(235, 231, 20);
+}
+.white { color: #fff;
+
+}
+
+img {max-width: 100%;
+}
+
+.fundo1 {background-color: rgb(235, 231, 20);
+    padding-top: 10px;
+    color: snow;
+        
+}
+.box {width: 80%;
+    height: auto;
+    border-radius: 10%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-indent: 10px;
+    line-height: 30px;
+    border: 1px outset rgb(124, 117, 117);
+}
